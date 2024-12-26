@@ -68,15 +68,16 @@ const Hero = () => {
                                     <h3 className="text-white text-lg font-medium">Strength Progress</h3>
                                 </div>
                                 <p className="text-white/60 text-sm mb-4">Track your 1RM progression across all major lifts with our AI-powered analytics</p>
-                                <div className="h-48">
+                                <div className="h-48 text-white/60">
                                     <ResponsiveContainer width="100%" height="100%">
                                         <LineChart data={chartData}>
                                             <XAxis dataKey="month" stroke="#666" />
                                             <YAxis stroke="#666" />
                                             <Tooltip
                                                 contentStyle={{
-                                                    background: 'rgba(0,0,0,0.8)',
-                                                    border: '1px solid rgba(255,255,255,0.1)'
+                                                    background: 'rgba(255,255,255,0.05)',
+                                                    border: '1px solid rgba(255,255,255,0.1)',
+                                                    borderRadius: '0.5rem',
                                                 }}
                                             />
                                             <Line
