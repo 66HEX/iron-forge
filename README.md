@@ -1,8 +1,8 @@
 # IRONFORGE - Conceptual AI-Powered Powerlifting Platform
 
 ![IRONFORGE](https://img.shields.io/badge/IRONFORGE-AI%20Powerlifting-red)
-![React](https://img.shields.io/badge/React-18.0.0-blue)
-![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black)
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![Next.js](https://img.shields.io/badge/Next.js-15.1.2-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -32,7 +32,7 @@ This is a static landing page showcasing a modern design with:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ironforge.git
+git clone https://github.com/66HEX/ironforge.git
 ```
 
 2. Install dependencies:
