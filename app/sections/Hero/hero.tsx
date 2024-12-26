@@ -51,7 +51,7 @@ const Hero = () => {
                             An advanced powerlifting platform that uses AI to automate various aspects
                             of training optimization, progress tracking, and performance analysis.
                         </p>
-                        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+                        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-16">
                             <button
                                 className="px-8 py-4 bg-white text-black rounded-xl font-semibold hover:bg-white/90 transition-colors">
                                 Get started for free
