@@ -111,7 +111,7 @@ const Pricing = () => {
                                     className={`
                                         w-full py-3 px-6 rounded-xl font-medium transition-colors
                                         ${plan.highlight
-                                        ? 'bg-customRed hover:bg-red-800 text-white'
+                                        ? 'bg-customRed hover:bg-red-700 text-white'
                                         : 'bg-white/10 hover:bg-white/20 text-white'}
                                     `}
                                 >

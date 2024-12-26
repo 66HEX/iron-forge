@@ -12,7 +12,7 @@ export default {
         sans: ['var(--font-lausanne)']
       },
       colors: {
-        customRed: '#c81b1b',
+        customRed: '#8a0000',
       }
     },
   },
