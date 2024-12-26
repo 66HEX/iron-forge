@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# IRONFORGE - Conceptual AI-Powered Powerlifting Platform
 
-## Getting Started
+![IRONFORGE](https://img.shields.io/badge/IRONFORGE-AI%20Powerlifting-red)
+![React](https://img.shields.io/badge/React-18.0.0-blue)
+![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-First, run the development server:
+Modern, responsive landing page for IRONFORGE - a conceptual AI-powered powerlifting platform. Built with React, Next.js, and Tailwind CSS.
 
+## 🎯 About
+
+This is a static landing page showcasing a modern design with:
+- Responsive layout
+- Smooth animations
+- Dark theme with red accents
+- Glass morphism effects
+- Interactive elements
+- Custom background patterns
+
+## 💻 Tech Stack
+
+- **Frontend Framework**: React with Next.js
+- **Styling**: Tailwind CSS with custom configurations
+- **Animations**: GSAP for smooth transitions
+- **Smooth Scrolling**: Lenis
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **TypeScript**: For type safety and better developer experience
+
+## 🛠 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/ironforge.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+cd ironforge
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 📁 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+ironforge/
+├── app/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Blog/
+│   │   ├── Features/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── Navbar/
+│   │   ├── Pricing/
+│   │   └── BackgroundOverlay/
+│   └── page.tsx
+├── public/
+│   ├── icons/
+│   └── testimonials/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modern, dark theme with red accent colors
+- Responsive design for all screen sizes
+- Smooth animations and transitions
+- Glass morphism effects
+- Custom background patterns and overlays
 
-## Deploy on Vercel
+## 🔧 Component Architecture
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Modular Components**: Each section is a self-contained component
+- **Reusable UI Elements**: Common elements are abstracted into separate components
+- **Responsive Design**: Mobile-first approach with tailored layouts
+- **Performance Optimized**: Efficient rendering and animation handling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
