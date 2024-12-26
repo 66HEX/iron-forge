@@ -8,10 +8,7 @@ interface SmoothScrollingProps {
 }
 
 function SmoothScrolling({ children }: SmoothScrollingProps) {
-    const lenis = useLenis((scrollInfo) => {
-
-    });
-
+    useLenis();
     return (
         <ReactLenis root options={{ lerp: 0.07, duration: 1.5 }}>
             {children}

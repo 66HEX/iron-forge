@@ -66,7 +66,7 @@ const Features = () => {
     ];
 
     return (
-        <div className="py-24 relative">
+        <div id="features" className="py-24 relative">
             <BackgroundOverlay/>
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">

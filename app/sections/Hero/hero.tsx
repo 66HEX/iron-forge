@@ -21,9 +21,9 @@ const integrationIcons = [
 
 const Hero = () => {
     return (
-        <div className="min-h-screen relative overflow-hidden">
+        <div id="hero" className="min-h-screen py-24 relative overflow-hidden">
             <BackgroundOverlay />
-            <div className="container mx-auto px-4 py-24 relative">
+            <div className="container mx-auto px-4 relative">
                 <main className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
                         <div className="flex items-center justify-center gap-2 mb-6">
@@ -45,12 +45,10 @@ const Hero = () => {
                                 with IRONFORGE
                             </span>
                         </h1>
-
                         <p className="text-white/60 text-lg mb-12 max-w-2xl mx-auto">
                             An advanced powerlifting platform that uses AI to automate various aspects
                             of training optimization, progress tracking, and performance analysis.
                         </p>
-
                         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
                             <button
                                 className="px-8 py-4 bg-white text-black rounded-xl font-semibold hover:bg-white/90 transition-colors">
@@ -61,8 +59,7 @@ const Hero = () => {
                                 Book a demo
                             </button>
                         </div>
-
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
                                 <div className="flex items-center gap-3 mb-4">
                                     <Dumbbell className="text-red-500" size={24} />
@@ -91,7 +88,6 @@ const Hero = () => {
                                     </ResponsiveContainer>
                                 </div>
                             </div>
-
                             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
                                 <div className="flex items-center gap-3 mb-4">
                                     <Activity className="text-red-500" size={24} />
@@ -108,8 +104,7 @@ const Hero = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+                            <div className="col-span-1 md:col-span-2 lg:col-span-1 bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
                                 <div className="flex items-center gap-3 mb-4">
                                     <Share2 className="text-red-500" size={24} />
                                     <h3 className="text-white text-lg font-medium">Smart Integrations</h3>
@@ -124,7 +119,7 @@ const Hero = () => {
                                             <img
                                                 src={icon.icon}
                                                 alt={icon.name}
-                                                className="w-8 h-8 object-contain"
+                                                className="w-8 h-8 md:w-16 md:h-16 object-contain"
                                             />
                                             <div className="absolute opacity-0 group-hover:opacity-100 bg-black/80 text-white text-xs p-1 rounded transition-opacity">
                                                 {icon.name}

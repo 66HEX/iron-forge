@@ -22,9 +22,7 @@ export default function BackgroundOverlay() {
                         </feMerge>
                     </filter>
                 </defs>
-
                 <rect width="100%" height="100%" fill="url(#redGlow)"/>
-
                 <path
                     d="M0,20% C20%,10% 60%,30% 100%,20%"
                     fill="none"
@@ -33,7 +31,6 @@ export default function BackgroundOverlay() {
                     opacity="0.3"
                     filter="url(#glow)"
                 />
-
                 <path
                     d="M0,40% C30%,30% 70%,50% 100%,40%"
                     fill="none"
@@ -42,7 +39,6 @@ export default function BackgroundOverlay() {
                     opacity="0.2"
                     filter="url(#glow)"
                 />
-
                 <path
                     d="M0,60% C20%,50% 80%,70% 100%,60%"
                     fill="none"
@@ -54,7 +50,6 @@ export default function BackgroundOverlay() {
             </svg>
             <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-b from-black to-transparent pointer-events-none"/>
             <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-black to-transparent pointer-events-none"/>
-
         </div>
     );
 }

@@ -48,7 +48,7 @@ const Pricing = () => {
     ];
 
     return (
-        <div className="py-24 relative">
+        <div id="pricing" className="py-24 relative">
             <BackgroundOverlay/>
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
@@ -66,8 +66,7 @@ const Pricing = () => {
                             Choose the perfect plan for your training needs
                         </p>
                     </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {plans.map((plan, index) => (
                             <div
                                 key={index}
@@ -84,7 +83,6 @@ const Pricing = () => {
                                         </div>
                                     </div>
                                 )}
-
                                 <div className="mb-8">
                                     <h3 className="text-white text-xl font-semibold mb-2">
                                         {plan.name}
@@ -101,7 +99,6 @@ const Pricing = () => {
                                         {plan.description}
                                     </p>
                                 </div>
-
                                 <ul className="space-y-4 mb-8">
                                     {plan.features.map((feature, idx) => (
                                         <li key={idx} className="flex items-center gap-3">
@@ -110,7 +107,6 @@ const Pricing = () => {
                                         </li>
                                     ))}
                                 </ul>
-
                                 <button
                                     className={`
                                         w-full py-3 px-6 rounded-xl font-medium transition-colors

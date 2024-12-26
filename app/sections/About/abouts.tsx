@@ -15,14 +15,14 @@ const About = () => {
             text: "Increased my total by 45kg in 3 months",
             author: "Sarah Chen",
             role: "USAPL 84kg",
-            image: "/api/placeholder/64/64",
+            image: "/testimonials/stefi-cohen.jpg",
             rating: 5
         },
         {
             text: "Best powerlifting app I've ever used",
             author: "Mike Peterson",
             role: "IPF -120kg",
-            image: "/api/placeholder/64/64",
+            image: "/testimonials/mike-israetel.jpg",
             rating: 5
         }
     ];
@@ -41,7 +41,7 @@ const About = () => {
     ];
 
     return (
-        <div className="py-24 relative">
+        <div id="about" className="py-24 relative">
             <BackgroundOverlay/>
             <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
@@ -61,7 +61,6 @@ const About = () => {
                                 athletes achieve their strength goals. Our platform adapts to your training style and
                                 continuously optimizes your progress.
                             </p>
-
                             <div className="grid grid-cols-2 gap-6 mb-8">
                                 {stats.map((stat, index) => (
                                     <div
@@ -81,10 +80,8 @@ const About = () => {
                                 ))}
                             </div>
                         </div>
-
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 z-10">
                             <div className="flex flex-col gap-6">
-                                {/* Weekly Active Users Card - Moved to top on mobile */}
                                 <div className="bg-gradient-to-br from-red-500/20 to-red-800/20 p-6 rounded-2xl border border-white/10 sm:order-last order-first">
                                     <div className="text-white font-medium mb-2">Weekly Active Users</div>
                                     <div className="text-3xl font-bold text-white mb-4">12,547</div>
@@ -93,7 +90,6 @@ const About = () => {
                                         +24.3% vs last week
                                     </div>
                                 </div>
-                                {/* Testimonials */}
                                 {testimonials.map((testimonial, index) => (
                                     <div key={index} className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10">
                                         <div className="flex gap-2 mb-2">
@@ -112,7 +108,6 @@ const About = () => {
                                     </div>
                                 ))}
                             </div>
-                            {/* Achievements */}
                             <div className="flex flex-col gap-6">
                                 {achievements.map((achievement, index) => (
                                     <div key={index} className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-colors group cursor-pointer">
