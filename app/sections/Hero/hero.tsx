@@ -3,6 +3,7 @@ import React from 'react';
 import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 import BackgroundOverlay from "@/app/components/BackgroundOverlay/backgroundOverlay";
 import { Dumbbell, Activity, Share2 } from 'lucide-react';
+import BackgroundPattern from "@/app/components/BackgroundPattern/backgroundPattern";
 
 const chartData = [
     { month: 'Jan', value: 150 }, { month: 'Feb', value: 180 }, { month: 'Mar', value: 160 },
@@ -23,6 +24,7 @@ const Hero = () => {
     return (
         <div id="hero" className="min-h-screen py-24 relative overflow-hidden">
             <BackgroundOverlay />
+            <BackgroundPattern/>
             <div className="container mx-auto px-4 relative">
                 <main className="max-w-6xl mx-auto">
                     <div className="text-center mb-16">
