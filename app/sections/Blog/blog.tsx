@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+
 import { Clock, User, ArrowRight } from 'lucide-react';
 import BackgroundOverlay from "@/app/components/BackgroundOverlay/backgroundOverlay";
 

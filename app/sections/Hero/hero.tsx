@@ -1,9 +1,15 @@
-"use client"
-import React from 'react';
+"use client";
+
 import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, Tooltip } from 'recharts';
 import BackgroundOverlay from "@/app/components/BackgroundOverlay/backgroundOverlay";
 import { Dumbbell, Activity, Share2 } from 'lucide-react';
 import BackgroundPattern from "@/app/components/BackgroundPattern/backgroundPattern";
+
+const profileImages = [
+    { id: 1, src: '/hero/athlete-1.jpg', alt: 'Athlete profile 1' },
+    { id: 2, src: '/hero/athlete-2.jpg', alt: 'Athlete profile 2' },
+    { id: 3, src: '/hero/athlete-3.jpg', alt: 'Athlete profile 3' }
+];
 
 const chartData = [
     { month: 'Jan', value: 150 }, { month: 'Feb', value: 180 }, { month: 'Mar', value: 160 },
@@ -30,9 +36,13 @@ const Hero = () => {
                     <div className="text-center mb-16">
                         <div className="flex items-center justify-center gap-2 mb-6">
                             <div className="flex -space-x-1">
-                                {[...Array(3)].map((_, i) => (
-                                    <div key={i}
-                                         className="w-6 h-6 rounded-full bg-red-800/50 border border-red-700/30"/>
+                                {profileImages.map((profile) => (
+                                    <img
+                                        key={profile.id}
+                                        src={profile.src}
+                                        alt={profile.alt}
+                                        className="w-6 h-6 rounded-full border-2 border-gray-800 object-cover"
+                                    />
                                 ))}
                             </div>
                             <span className="text-white/70 text-sm">Trusted by 25,000+ athletes</span>

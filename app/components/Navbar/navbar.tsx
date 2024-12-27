@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Dumbbell, Menu, X } from 'lucide-react';
 import { useLenis } from 'lenis/react';
 import gsap from 'gsap';

@@ -1,4 +1,5 @@
-import React from 'react';
+"use client";
+
 import { Check } from 'lucide-react';
 import BackgroundOverlay from "@/app/components/BackgroundOverlay/backgroundOverlay";
 

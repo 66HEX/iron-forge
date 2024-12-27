@@ -1,3 +1,5 @@
+"use client";
+
 import { BarChart3, Brain, Target, Dumbbell, Users, Trophy, ArrowRight } from 'lucide-react';
 import BackgroundOverlay from "@/app/components/BackgroundOverlay/backgroundOverlay";
 
